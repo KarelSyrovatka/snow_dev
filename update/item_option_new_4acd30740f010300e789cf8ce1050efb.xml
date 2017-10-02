@@ -18,6 +18,7 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <example_text/>
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
@@ -58,13 +59,11 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-09-04 07:42:18</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>4acd30740f010300e789cf8ce1050efb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>how much</sys_name>
         <sys_package display_value="gittest" source="x_95876_gittest">223df4300f010300e789cf8ce1050ebd</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="gittest">223df4300f010300e789cf8ce1050ebd</sys_scope>
         <sys_update_name>item_option_new_4acd30740f010300e789cf8ce1050efb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -86,4 +85,39 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=4acd30740f010300e789cf8ce1050efb"/>
+    <fx_price action="delete_multiple" query="id=4acd30740f010300e789cf8ce1050efb"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>4acd30740f010300e789cf8ce1050efb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-02 12:04:21</sys_created_on>
+        <sys_id>4a5606b50fa10300b110b36be1050ef4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-02 12:04:21</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>4acd30740f010300e789cf8ce1050efb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-02 12:04:21</sys_created_on>
+        <sys_id>8e5606b50fa10300b110b36be1050ef5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-02 12:04:21</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
 </record_update>
