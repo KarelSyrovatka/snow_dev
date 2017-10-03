@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="phone_provider_plan_import" max_length="40" name="x_95876_gittest_phone_provider_plan_import" type="collection">
+        <element attributes="import_attribute_name=Cost" label="Cost" max_length="15" name="u_cost" type="decimal"/>
+        <element attributes="import_attribute_name=Country,edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="import_attribute_name=Plan,edge_encryption_enabled=true" label="Plan" max_length="65" name="u_plan" type="string"/>
+        <element attributes="import_attribute_name=Plan Cost Field for Menu,edge_encryption_enabled=true" label="Plan Cost Field for Menu" max_length="83" name="u_plan_cost_field_for_menu" type="string"/>
+        <element attributes="import_attribute_name=Service Provider,edge_encryption_enabled=true" label="Service Provider" max_length="40" name="u_service_provider" type="string"/>
+        <element attributes="import_attribute_name=Sort Order" label="Sort Order" max_length="40" name="u_sort_order" type="integer"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Type,edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

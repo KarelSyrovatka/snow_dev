@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_cost" label="Cost" language="en" table="x_95876_gittest_phone_provider_plan_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_cost</element>
+            <help/>
+            <hint/>
+            <label>Cost</label>
+            <language>en</language>
+            <name>x_95876_gittest_phone_provider_plan_data</name>
+            <plural>Costs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-03 08:55:40</sys_created_on>
+            <sys_id>b7b4aac20f210300b110b36be1050e2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cost</sys_name>
+            <sys_package display_value="gittest" source="x_95876_gittest">223df4300f010300e789cf8ce1050ebd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="gittest">223df4300f010300e789cf8ce1050ebd</sys_scope>
+            <sys_update_name>sys_documentation_x_95876_gittest_phone_provider_plan_data_u_cost_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-03 08:55:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
