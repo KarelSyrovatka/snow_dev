@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="phone_provider_message_int_import" max_length="40" name="x_95876_gittest_phone_provider_message_int_import" type="collection">
+        <element attributes="import_attribute_name=Add On Services,edge_encryption_enabled=true" label="Add On Services" max_length="40" name="u_add_on_services" type="string"/>
+        <element attributes="import_attribute_name=Add On Services Cost Field for Menu,edge_encryption_enabled=true" label="Add On Services Cost Field for Menu" max_length="54" name="u_add_on_servi_field_for_menu" type="string"/>
+        <element attributes="import_attribute_name=Cost" label="Cost" max_length="15" name="u_cost" type="decimal"/>
+        <element attributes="import_attribute_name=Country,edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="import_attribute_name=Device Type,edge_encryption_enabled=true" label="Device Type" max_length="40" name="u_device_type" type="string"/>
+        <element attributes="import_attribute_name=Service Provider,edge_encryption_enabled=true" label="Service Provider" max_length="40" name="u_service_provider" type="string"/>
+        <element attributes="import_attribute_name=Service Type,edge_encryption_enabled=true" label="Service Type" max_length="40" name="u_service_type" type="string"/>
+        <element attributes="import_attribute_name=Sort Order" label="Sort Order" max_length="40" name="u_sort_order" type="integer"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+    </element>
+</database>

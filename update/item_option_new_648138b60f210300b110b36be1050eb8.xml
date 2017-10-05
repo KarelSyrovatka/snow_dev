@@ -3,14 +3,14 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Karel Item">28adbc340f010300e789cf8ce1050efc</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>NO</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -33,15 +33,15 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>how_much</name>
-        <order/>
+        <name>Acknowledge_Condition</name>
+        <order>1100</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>how much</question_text>
+        <question_text>Acknowledge Condition</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -58,25 +58,25 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-09-04 07:42:18</sys_created_on>
-        <sys_id>4acd30740f010300e789cf8ce1050efb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>how much</sys_name>
+        <sys_created_on>2017-10-05 08:29:17</sys_created_on>
+        <sys_id>648138b60f210300b110b36be1050eb8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Acknowledge Condition</sys_name>
         <sys_package display_value="gittest" source="x_95876_gittest">223df4300f010300e789cf8ce1050ebd</sys_package>
         <sys_policy/>
         <sys_scope display_value="gittest">223df4300f010300e789cf8ce1050ebd</sys_scope>
-        <sys_update_name>item_option_new_4acd30740f010300e789cf8ce1050efb</sys_update_name>
+        <sys_update_name>item_option_new_648138b60f210300b110b36be1050eb8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-04 07:42:18</sys_updated_on>
+        <sys_updated_on>2017-10-05 08:31:29</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>5</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <variable_name/>
-        <variable_set/>
-        <variable_width/>
+        <variable_set display_value="Phone_us_variable_set">a99d80ee0fa10300b110b36be1050ee1</variable_set>
+        <variable_width>25</variable_width>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -84,22 +84,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=4acd30740f010300e789cf8ce1050efb"/>
-    <fx_price action="delete_multiple" query="id=4acd30740f010300e789cf8ce1050efb"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=648138b60f210300b110b36be1050eb8"/>
+    <fx_price action="delete_multiple" query="id=648138b60f210300b110b36be1050eb8"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>4acd30740f010300e789cf8ce1050efb</id>
+        <id>648138b60f210300b110b36be1050eb8</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-10-02 12:04:21</sys_created_on>
-        <sys_id>4a5606b50fa10300b110b36be1050ef4</sys_id>
+        <sys_created_on>2017-10-05 08:29:17</sys_created_on>
+        <sys_id>b4e134b60f210300b110b36be1050e71</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-02 12:04:21</sys_updated_on>
+        <sys_updated_on>2017-10-05 08:29:17</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -107,16 +107,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>4acd30740f010300e789cf8ce1050efb</id>
+        <id>648138b60f210300b110b36be1050eb8</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-10-02 12:04:21</sys_created_on>
-        <sys_id>8e5606b50fa10300b110b36be1050ef5</sys_id>
+        <sys_created_on>2017-10-05 08:29:17</sys_created_on>
+        <sys_id>7ce134b60f210300b110b36be1050e70</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-02 12:04:21</sys_updated_on>
+        <sys_updated_on>2017-10-05 08:29:17</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

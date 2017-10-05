@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Iphone 7 TE">28adbc340f010300e789cf8ce1050efc</sc_cat_item>
+        <sc_cat_item display_value="PIXEL XL BY GOOGLE TE">637b78be0f210300b110b36be1050eb6</sc_cat_item>
         <sc_category display_value="phones">1f164e750fa10300b110b36be1050e42</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-10-02 12:03:44</sys_created_on>
-        <sys_id>c1368e750fa10300b110b36be1050e3c</sys_id>
+        <sys_created_on>2017-10-05 09:11:15</sys_created_on>
+        <sys_id>6b7b78be0f210300b110b36be1050ebb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>phones.Karel Item</sys_name>
+        <sys_name>phones.Copy of Samsung Galaxy S7 TE</sys_name>
         <sys_package display_value="gittest" source="x_95876_gittest">223df4300f010300e789cf8ce1050ebd</sys_package>
         <sys_policy/>
         <sys_scope display_value="gittest">223df4300f010300e789cf8ce1050ebd</sys_scope>
-        <sys_update_name>sc_cat_item_category_c1368e750fa10300b110b36be1050e3c</sys_update_name>
+        <sys_update_name>sc_cat_item_category_6b7b78be0f210300b110b36be1050ebb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-02 12:03:44</sys_updated_on>
+        <sys_updated_on>2017-10-05 09:11:15</sys_updated_on>
     </sc_cat_item_category>
 </record_update>

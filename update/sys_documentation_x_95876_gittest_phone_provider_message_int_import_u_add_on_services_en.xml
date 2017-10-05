@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_add_on_services" label="Add On Services" language="en" table="x_95876_gittest_phone_provider_message_int_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_add_on_services</element>
+            <help/>
+            <hint/>
+            <label>Add On Services</label>
+            <language>en</language>
+            <name>x_95876_gittest_phone_provider_message_int_import</name>
+            <plural>Add On Services</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-04 11:49:18</sys_created_on>
+            <sys_id>8d1690260fe10300b110b36be1050eff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Add On Services</sys_name>
+            <sys_package display_value="gittest" source="x_95876_gittest">223df4300f010300e789cf8ce1050ebd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="gittest">223df4300f010300e789cf8ce1050ebd</sys_scope>
+            <sys_update_name>sys_documentation_x_95876_gittest_phone_provider_message_int_import_u_add_on_services_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-04 11:49:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
