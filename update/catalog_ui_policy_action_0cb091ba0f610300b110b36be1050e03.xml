@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Iphone 7 TE">28adbc340f010300e789cf8ce1050efc</catalog_item>
+        <catalog_variable>IO:5f5d813a0f610300b110b36be1050ed3</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-05 10:44:03</sys_created_on>
+        <sys_id>0cb091ba0f610300b110b36be1050e03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>filter1</sys_name>
+        <sys_package display_value="gittest" source="x_95876_gittest">223df4300f010300e789cf8ce1050ebd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="gittest">223df4300f010300e789cf8ce1050ebd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0cb091ba0f610300b110b36be1050e03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-05 10:44:03</sys_updated_on>
+        <table/>
+        <ui_policy display_value="hide filters">d580d97a0f610300b110b36be1050e52</ui_policy>
+        <variable>filter1</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

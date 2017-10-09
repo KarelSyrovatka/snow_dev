@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item/>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value>Conditions FOR Participation IN TE Connectivity Corporate Billing OF Mobile Devices&#13;
+ &#13;
+TE Connectivity retains ownership OF ALL Mobile Device numbers AND phones purchased THROUGH this PROGRAM. Employees who leave THE company OR leave THE corporate billed PROGRAM will be&#13;
+REQUIRED TO surrender THE Mobile Device number AND Mobile Device. &#13;
+The ONLY exception would be if the employees' Manager has given approved documentation (e-mail) to release the cell number And/or the device to personal liability.&#13;
+TE Connectivity END USERS who wish TO take advantage OF this PROGRAM will be REQUIRED TO USE A phone AND service THROUGH one OF THE TWO vendors authorized BY TE Connectivity&#13;
+(AT&amp;T AND VERIZON). EXCEPTIONS TO THE authorized vendors will be reviewed ON an individual CASE-BY-CASE basis.&#13;
+ &#13;
+TE Connectivity END USERS who will need NEW equipment AS A result OF this conversion TO corporate billing will SELECT NEW equipment FROM A list OF approved phones selected&#13;
+BY THE TE Telecom Cellular Team. EXCEPTIONS TO THE authorized equipment list will be reviewed ON an individual CASE-BY-CASE basis FOR employees who&#13;
+DO NOT feel these phone models meet their needs.&#13;
+ &#13;
+Mobile Devices IN this PROGRAM are intended FOR business USE ONLY. Personal USE OF these devices IS discouraged.&#13;
+Mobile Device USERS who currently have family OR SHARED plans tied TO THE ACCOUNT they wish TO submit FOR corporate billing will need TO make arrangements TO remove&#13;
+non-TE USERS FROM THE ACCOUNT.&#13;
+Corporate billed accounts are designated solely FOR TE Connectivity business purposes.&#13;
+ &#13;
+TE Connectivity will NO longer accept CONCUR reimbursement requests FOR Mobile Devices. Phones intended FOR business purposes should be converted TO THE corporate billed Mobile Device PROGRAM.&#13;
+EXCEPTIONS noted below:&#13;
+ &#13;
+Existing contracts will be honored. AS contract terms EXPIRE employees will be expected TO transfer TO authorized vendors AND THE corporate billed Mobile Device PROGRAM &#13;
+ &#13;
+I have READ AND understand THE Conditions FOR Participation IN TE Connectivity Corporate Billing OF Mobile Devices listed above&#13;
+ &#13;
+ </default_value>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>terms</name>
+        <order>1000</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>Terms AND Conditions.</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-09 13:01:06</sys_created_on>
+        <sys_id>e17692080fb10300b110b36be1050e2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terms AND Conditions.</sys_name>
+        <sys_package display_value="gittest" source="x_95876_gittest">223df4300f010300e789cf8ce1050ebd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="gittest">223df4300f010300e789cf8ce1050ebd</sys_scope>
+        <sys_update_name>item_option_new_e17692080fb10300b110b36be1050e2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-09 13:01:06</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>2</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <variable_name/>
+        <variable_set display_value="Phone_us_variable_set (COPY)">5d7652840fb10300b110b36be1050e8f</variable_set>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=e17692080fb10300b110b36be1050e2a"/>
+    <fx_price action="delete_multiple" query="id=e17692080fb10300b110b36be1050e2a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>e17692080fb10300b110b36be1050e2a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-09 13:01:06</sys_created_on>
+        <sys_id>297692080fb10300b110b36be1050e2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-09 13:01:06</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>e17692080fb10300b110b36be1050e2a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-09 13:01:06</sys_created_on>
+        <sys_id>ed7692080fb10300b110b36be1050e2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-09 13:01:06</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

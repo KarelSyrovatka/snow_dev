@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>set</applies_to>
+        <cat_item/>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <messages/>
+        <name>Phone_types</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+//var amt = newValue;
+//var currParts = amt.split("-");
+//if (currParts.length > 0) {
+//  amt = currParts[0];
+  //alert(amt);
+	
+var filter1 = g_form.getValue('filter1');
+var filter2 = g_form.getValue('filter2');
+//alert(filter1);
+//alert(filter2);	
+
+g_form.clearOptions('phone');  	
+var gr = new GlideRecord('x_95876_gittest_phone_type_data');
+
+if (filter1) {
+gr.addQuery('u_model','STARTSWITH', filter1);
+}
+if (filter2){	
+gr.addQuery('u_model','DOES NOT CONTAIN', filter2);	
+}
+gr.query(myCallBack); //Note that the callback function is passed in without parentheses
+
+//g_form.addOption('plan', 0, '* Select Provider Plan'); 	
+
+}	
+
+//define the callback function
+function myCallBack(gr) {
+    while (gr.next()) {
+      	//g_form.addOption('provider', gr.u_plan_cost_field_for_menu, gr.u_plan_cost_field_for_menu); 
+		//g_form.addOption('phone', gr.u_cost, gr.u_model_cost_field_for_menu); 
+		g_form.addOption('phone', gr.u_model_cost_field_for_menu, gr.u_model_cost_field_for_menu); 
+    }
+ }
+   
+]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-05 10:20:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9a0a49360f610300b110b36be1050e30</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Phone_types</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="gittest" source="x_95876_gittest">223df4300f010300e789cf8ce1050ebd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="gittest">223df4300f010300e789cf8ce1050ebd</sys_scope>
+        <sys_update_name>catalog_script_client_9a0a49360f610300b110b36be1050e30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-09 08:05:06</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set display_value="Phone_us_variable_set">a99d80ee0fa10300b110b36be1050ee1</variable_set>
+        <view/>
+    </catalog_script_client>
+</record_update>

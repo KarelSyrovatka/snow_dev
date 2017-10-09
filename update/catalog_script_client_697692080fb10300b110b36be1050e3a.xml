@@ -87,23 +87,23 @@ function myCallBackInt(grint) {
  ]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-10-04 11:18:42</sys_created_on>
+        <sys_created_on>2017-10-09 13:01:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>49aec0220fe10300b110b36be1050e7d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_id>697692080fb10300b110b36be1050e3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>phone_plan</sys_name>
         <sys_overrides/>
         <sys_package display_value="gittest" source="x_95876_gittest">223df4300f010300e789cf8ce1050ebd</sys_package>
         <sys_policy/>
         <sys_scope display_value="gittest">223df4300f010300e789cf8ce1050ebd</sys_scope>
-        <sys_update_name>catalog_script_client_49aec0220fe10300b110b36be1050e7d</sys_update_name>
+        <sys_update_name>catalog_script_client_697692080fb10300b110b36be1050e3a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-05 10:47:50</sys_updated_on>
+        <sys_updated_on>2017-10-09 13:01:06</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
-        <variable_set display_value="Phone_us_variable_set">a99d80ee0fa10300b110b36be1050ee1</variable_set>
+        <variable_set display_value="Phone_us_variable_set (COPY)">5d7652840fb10300b110b36be1050e8f</variable_set>
         <view/>
     </catalog_script_client>
 </record_update>
