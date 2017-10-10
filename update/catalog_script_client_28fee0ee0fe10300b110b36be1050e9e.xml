@@ -24,9 +24,18 @@
 	//alert(newValue);
 	g_form.clearOptions('messaging_cost'); 
 
+	//alert(newValue);
+	var amt = newValue;
+	var currParts = amt.split("$");
+	if (currParts.length > 0) {
+	  amt = currParts[1];
+	//alert(amt);
+	}
+	
+	
 	//alert(newValue);	
 	//g_form.addOption('plan_cost', newValue, newValue); 
-	g_form.setValue('messaging_cost',newValue);
+	g_form.setValue('messaging_cost',amt);
 	
    //Type appropriate comment here, and begin script below
    
@@ -37,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>28fee0ee0fe10300b110b36be1050e9e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>messaging_cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="gittest" source="x_95876_gittest">223df4300f010300e789cf8ce1050ebd</sys_package>
@@ -45,7 +54,7 @@
         <sys_scope display_value="gittest">223df4300f010300e789cf8ce1050ebd</sys_scope>
         <sys_update_name>catalog_script_client_28fee0ee0fe10300b110b36be1050e9e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-04 13:54:39</sys_updated_on>
+        <sys_updated_on>2017-10-09 14:32:05</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
